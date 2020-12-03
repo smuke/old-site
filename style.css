@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --black: #2A2A2A;
+}
+
+body {
+    background-color: var(--white);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+/*  */
+
+header {
+    margin: 100px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 200px;
+}
+
+header h1 {
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: 500;
+}
+
+/*  */
+
+.banner {
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background: var(--black);
+    margin-bottom: 50px;
+}
+
+@media (max-width: 795px) {
+    .banner {
+        width: 350px;
+        flex-direction: column;
+    }
+    .banner button {
+        width: 90%;
+        margin-bottom: 16px;
+    }
+}
+
+.banner p {
+    color: white;
+}
+
+.banner button {
+    border: none;
+    background: rgba(255, 255, 255, .3);
+    padding: 15px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+/*  */
+main {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+
+.panel-main {
+    height: 200px;
+    width: 350px;
+    background-color: var(--black);
+    border-radius: 15px;
+    box-shadow: 0px 50px 60px rgba(39, 38, 42, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .75s, filter .5s;
+}
+
+.panel-main:hover {
+    transform: translateY(-1px);
+    filter: opacity(.85);
+}
+
+.panel-main img {
+    max-height: 50px;
+    max-width: 175px;
+}
+
+.tags ul {
+    padding: 0;
+    text-align: left;
+}
+
+.tags li {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 7.5px 10px;
+    border-radius: 15px;
+    font-size: .75rem;
+    list-style: none;
+    display: inline-block;
+}
+
+/*  */
+
+footer {
+    margin: 100px 0;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+/*  */
+
+.panel-snowplace .panel-main {
+    background: #121518;
+}
+
+.panel-evo .panel-main {
+    background: linear-gradient(90deg, #0090FF, #633FFF);
+}
+
+.panel-worldtrivia .panel-main {
+    background: #1C294E;
+}
+
+.panel-essentials .panel-main {
+    background: linear-gradient(180deg, #222234 0%, #0C0C13 100%);
+}
+
+.panel-aurora .panel-main {
+    background: #141e28;
+}
+
+.panel-elva .panel-main {
+    background: linear-gradient(180deg, #192C44 0%, #08111D 100%);
+}
+
+.panel-lighttools .panel-main {
+    background: #000617;
+}
+
+.panel-hayai .panel-main {
+    background: #0F0C1C;
+}
+
+.panel-alphamails .panel-main {
+    background: #0F0F16;
+}
