@@ -29,44 +29,6 @@ header h1 {
 }
 
 /*  */
-
-.banner {
-    width: 50%;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 30px;
-    box-sizing: border-box;
-    background: var(--black);
-    margin-bottom: 50px;
-}
-
-@media (max-width: 795px) {
-    .banner {
-        width: 350px;
-        flex-direction: column;
-    }
-    .banner button {
-        width: 90%;
-        margin-bottom: 16px;
-    }
-}
-
-.banner p {
-    color: white;
-}
-
-.banner button {
-    border: none;
-    background: rgba(255, 255, 255, .3);
-    padding: 15px 40px;
-    border-radius: 8px;
-    cursor: pointer;
-    color: white;
-}
-
-/*  */
 main {
     text-align: center;
     display: flex;
