@@ -48,6 +48,7 @@ main {
     flex-direction: column;
     text-align: left;
     padding: 20px;
+    user-select: none;
 }
 
 .panel-main {
