@@ -1,1 +1,3 @@
-https://smuke.dev
+My old site (OUTDATED)
+
+https://legacy.smuke.dev
